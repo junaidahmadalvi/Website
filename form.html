@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        input{
+            /* display: flex;
+            flex-direction: column; */
+        }
+        label{
+            
+            font-weight: 900;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="">
+
+
+        <fieldset>
+
+            <legend>Input Basic Tags</legend>
+            <label for="name"> Name:</label><input type="text" name="name" placeholder="Enter your Name">
+        <br><br><br>
+        <label for="password">Password:</label><input type="password" name="password" placeholder="enter password">
+        
+        
+        <br><br><br>
+        
+        <label for="gender">Gender</label><br>
+        Male<input type="radio" name="gender" id="male">
+        Female<input type="radio" name="gender" id="female">
+
+        <br><br>
+
+        <label for="image">Upload Image</label> <br><br>
+        <input type="file" name="image">
+
+        <br><br>
+
+        <label for="hobboies">Hobboies</label> <br>
+        Cricket <input type="checkbox" name="hobboies" id="cricket">
+        Reading <input type="checkbox" name="hobboies" id="Reading">
+        Gardening <input type="checkbox" name="hobboies" id="Gardening">
+
+        <br><br>
+
+        <label for="city">City</label>
+        <select name="city" >
+            <option value="Guj">Guj</option>
+            <option value="LHR">LHR</option>
+            <option value="Muree" selected>Muree</option>
+        </select>
+
+        <br><br>
+
+        <label for="comment">Comment</label><br>
+        <textarea name="comment" id="feedback" cols="30" rows="10"></textarea>
+        
+        <br><br>
+        <h3>Submit button</h3>
+        <label for="submit"></label><input type="submit" name="submit" value="Submit" >
+        <h3>Reset button</h3>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <label for="reset"></label><input type="reset" name="reset" value="Reset">   <br><br>
+        <h3>Button (perform particular action by using Javascript)</h3>
+        <input type="button" value="Button"> <br><br>
+        <h3>Image button</h3>
+        <input type="image" src="images/Food 1.jpg" width="5%">
+        
+        <!-- <label for="country"></label>
+        <input type="search">
+ -->
+        </fieldset>
+
+    </form>
+</body>
+</html>
